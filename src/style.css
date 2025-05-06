@@ -3,4 +3,38 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  --bg-btn: #008bfe;
+  --bg-btn-hover: #006fcb;
+  --font: "Montserrat", sans-serif;
+  --font-style: normal;
+  --bg-main: #f0f4f8;
+
+  --color-white: #ffffff;
+  --color-black: #000000;
+  --color-btn-cancel: #d00303;
+  --color-btn-ok: #09bb00;
+  --color-border: #cce8ff;
+  --color-font: #222222;
+
+  --font-size-btn: 24px;
+  --line-height-btn: 36px;
+  --font-weight-btn: 400;
+  --border-btn: none;
+  --border-radius-btn: 100px;
+  --cursor-btn: pointer;
+  --min-height-page: 100vh;
+
+  --width-start-btn: 335px;
+  --height-start-btn: 68px;
+  --pading-start-btn: 16px 10px;
+}
+
+body {
+  display: grid;
+  place-items: center;
+  min-height: var(--min-height-page);
+  background-color: var(--bg-main);
+  font-family: var(--font);
+  font-style: var(--font-style);
 }
